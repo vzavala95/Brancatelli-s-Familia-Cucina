@@ -1,0 +1,164 @@
+body { 
+    background-color:#FFFACD
+}
+
+.header {
+    min-height: 100%;
+    background-color: var(--background-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    padding: 4px;
+}
+
+.active { 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color:brown;
+    color: white;
+  }
+
+  h1 { 
+    text-align: center; 
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.border_1 { 
+    border-bottom: 4px solid black;
+}
+
+
+h2 { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
+.photo1 img { 
+    width: 580px;
+    float: left;
+    margin-left: 70px;
+    height: 600px;
+    padding-bottom: 50px;
+}
+
+.photo2 img { 
+    float: right;
+    width: 600px;
+    margin-right: 120px;
+    height: 600px;
+    padding-bottom: 50px;
+
+}
+
+.side { 
+    text-align: center;
+}
+
+.family_par { 
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.chef_l img { 
+    width: 580px;
+    float: left;
+    margin-left: 70px;
+    height: 600px;
+    padding-bottom: 50px;
+}
+
+.turkey img { 
+    float: right;
+    width: 600px;
+    margin-right: 120px;
+    height: 600px;
+    padding-bottom: 50px;
+}
+
+.chef { 
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+    width: 1100px;
+    height: 150px;
+    overflow-y: scroll;
+    border: 4px solid black;
+}
+
+.left img { 
+    float: left;
+    width: 600px;
+    height: 530px;
+    margin-left: 80px;
+}
+
+.right { 
+    float: right; 
+    border: 4px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-y: hidden;
+    height: 526px;
+    width: 600px;
+    font-size: 25px;
+    margin-right: 80px;  
+    overflow-y: scroll;
+    padding-left: 10px;
+}
+
+.footer { 
+    background-color: black;
+    height: 130px;
+    color: white;
+    margin-top: 650px;
+}
+
+.footer p {
+    line-height: 150px;
+    text-align: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
